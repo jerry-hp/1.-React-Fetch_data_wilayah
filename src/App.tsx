@@ -14,7 +14,7 @@ interface Istate {
 class App extends React.Component<{}, Istate> {
   constructor(props: {}) {
     super(props);
-    this.state = {u
+    this.state = {
       daftarProvinsi: [],
       provinsi: "",
       daftarKabupaten: [],
